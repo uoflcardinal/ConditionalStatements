@@ -23,7 +23,7 @@ namespace ConditionalStatements
 
                 while (!int.TryParse(Console.ReadLine(), out input))
                 {
-                    Console.WriteLine("{0} your entry is invalid as it is not a number", myName);
+                    Console.WriteLine("{0} your entry is invalid as it is not a number, please enter an integer.", myName);
                     continue;
                 }
                 if (input > 100)
